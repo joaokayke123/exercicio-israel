@@ -1,0 +1,43 @@
+body {
+    background-color: #090224;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #0e042c;
+    padding: 2px;
+
+}
+
+li {
+    display: inline-block;
+}
+
+.home-screen {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+.home-screen p {
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+.roadmap-card {
+    background-color: #0e042c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    display: inline-block;
+    color: rgb(180, 180, 180);
+}
+
+h2 {
+    color: rgb(180, 180, 180);
+    text-align: center;
+    font-size: 30px;
+}
