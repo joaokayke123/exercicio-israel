@@ -2,14 +2,39 @@ body {
     background-color: #090224;
     font-family: Arial, sans-serif;
 }
+
 header {
     background-color: #0e042c;
-    padding: 2px;
-
+    padding: 3px;
 }
 
-li {
+.nav-list li, a {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
     display: inline-block;
+    list-style: none;
+    color: rgb(180, 180, 180);
+}
+
+.navbar {
+    display: flex;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 55%;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 100px; 
+    margin-left: 20px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .home-screen {
@@ -17,6 +42,7 @@ li {
     font-weight: bold;
     color: rgb(180, 180, 180);
     text-align: center;
+    margin-top: 130px;
 }
 
 .home-screen p {
@@ -29,15 +55,31 @@ li {
     background-color: #0e042c;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+    margin-left: 37px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 250px;
+    max-width: 240px;
     display: inline-block;
     color: rgb(180, 180, 180);
 }
 
-h2 {
+.roadmap-card h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.roadmaps h2{
     color: rgb(180, 180, 180);
     text-align: center;
     font-size: 30px;
+    margin-top: 150px;
+}
+
+.icon {
+    width: 60px;
+    display: block; 
+    margin: 0 auto;
+}
+
+#card {
+ cursor: pointer;
 }
