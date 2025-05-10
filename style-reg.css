@@ -8,10 +8,11 @@ body {
     align-items: center;
 }
 
-.login {
+.register {
     background-color: #0e042c;
     text-align: center;
     width: 400px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: rgba(156, 163, 175, 1)
@@ -55,7 +56,7 @@ body {
     cursor: pointer;
     transition: background 0.3s ease;
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    text-decoration:none ;
 }
 
   button:hover {
