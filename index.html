@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="RoadMapHub Logo">
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <img src="imagens/roadmaphub.jpg" alt="Logo RoadMapHub" class="logo">
+            <ul class="nav-list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#roadmaps">Roadmaps</a></li>
@@ -25,28 +25,32 @@
             <p>Seu guia para se tornar um developer fullstack</p>
         </div>
  
-        <div>
+        <div class="roadmaps">
             <h2>Roadmaps</h2>
             <div class="roadmap-container">
-                <div class="roadmap-card">
+                <div id="card" class="roadmap-card" onclick="window.location.href='aula.html'">
+                    <img src="imagens/basico.png" alt="Initial icon" class="icon">
                     <h3>Básico para iniciante</h3>
                     <p>Aprenda Algoritmo e Lógica de programação</p>
                 </div>
-                <div class="roadmap-card">
+                <div id="card" class="roadmap-card" onclick="window.location.href='aula.html'">
+                    <img src="imagens/front.png" alt="FrontEnd icon" class="icon">
                     <h3>Frontend</h3>
                     <p>Aprenda HTML, CSS e JavaScript</p>
                 </div>
-                <div class="roadmap-card">
+                <div id="card" class="roadmap-card" onclick="window.location.href='aula.html'">
+                    <img src="imagens/back.png" alt="BackEnd icon" class="icon">
                     <h3>Backend</h3>
                     <p>Aprenda Node.js, Express e MongoDB</p>
                 </div>
-                <div class="roadmap-card">
-                    <img src="display-code.png" alt="DevOps">
+                <div id="card" class="roadmap-card" onclick="window.location.href='aula.html'"> 
+                    <img src="imagens/devops.png" alt="DevOps icon" class="icon">
                     <h3>DevOps</h3>
                     <p>Aprenda Docker, Kubernetes e CI/CD</p>
                 </div>
             </div>
         </div>
     </main>
+
 </body>
 </html>
