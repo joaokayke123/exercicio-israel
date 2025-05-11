@@ -45,4 +45,6 @@ bash
 Copiar
 Editar
 cd exercicio-israel
+
+crie uma pasta chamada imagens e coloque todas lá
 Abra o arquivo index.html em seu navegador para visualizar a página principal.
